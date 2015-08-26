@@ -1,1 +1,5 @@
-puts "Hello from Docker volume!!"
+require 'sinatra'
+
+get '/' do
+  "Hello World!"
+end
